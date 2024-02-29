@@ -5,4 +5,4 @@ import Interface
 # Luna @ Build Module
 
 def Init():
-    Interface.Send('Warn', f'Building Service | Loaded')
+    Interface.Send('Warn', f'build | Loaded')

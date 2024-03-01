@@ -5,16 +5,16 @@ from colorama import Style, Back, Fore
 
 def Send(Sign, Message, Client='Luna'):
     if Sign == 'Success':
-        return print(Fore.BLUE + '@' + Client + ', ' + Fore.GREEN + Message)
+        return print(Fore.MAGENTA + '@' + Client + ', ' + Fore.GREEN + Message)
 
     if Sign == 'Issue':
-        return print(Fore.BLUE + '@' + Client + ', ' + Fore.RED + Message)
+        return print(Fore.MAGENTA + '@' + Client + ', ' + Fore.RED + Message)
 
     if Sign == 'Warn':
-        return print(Fore.BLUE + '@' + Client + ', ' + Fore.YELLOW + Message)
+        return print(Fore.MAGENTA + '@' + Client + ', ' + Fore.YELLOW + Message)
 
     if Sign == 'Default':
-        return print(Fore.BLUE + '@' + Client + ', ' + Fore.WHITE + Message)
+        return print(Fore.MAGENTA + '@' + Client + ', ' + Fore.WHITE + Message)
 
 def Input(Message, Client='Luna'):
-    return input(Fore.BLUE + '@' + Client + ', ' + Fore.WHITE + Message)
+    return input(Fore.MAGENTA + '@' + Client + ', ' + Fore.WHITE + Message)
